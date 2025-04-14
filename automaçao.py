@@ -1,0 +1,20 @@
+import pyautogui
+
+email = pyautogui.prompt(text="Digite o seu email",title="informaçoes obrigatorias") 
+print(email) 
+senha = pyautogui.prompt(text="digite a sua senha",title="infomaçoes obrigatorias")
+print(senha)
+pyautogui.moveTo(306,945 ,duration=3)
+pyautogui.doubleClick()
+pyautogui.hotkey("ctrl","c")
+pyautogui.moveTo(1386,142,duration=2)
+pyautogui.click()
+pyautogui.hotkey("ctrl","v")
+pyautogui.press("enter")
+pyautogui.moveTo(306,962 ,duration=3)
+pyautogui.doubleClick()
+pyautogui.hotkey("ctrl","c")
+pyautogui.moveTo(1350,160,duration=2)
+pyautogui.click()
+pyautogui.hotkey("ctrl","v")
+
